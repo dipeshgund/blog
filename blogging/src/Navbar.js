@@ -1,12 +1,15 @@
 const Navbar = () => {
     return (  
         <div className="Navbar">
-            <nav className="navbar">
+            <nav className="navbar navbar-expand-sm bg-light text-dark justify-content-center">
                 <h1>bLoGgEr'S hUb</h1>
-                <div className="links">
-                    <a href="/">Home</a><br/>
-                    <a href="/create">Create</a>
-                </div>
+                <li className="list justify-content-start">
+                    <a href="/">Home</a>
+                </li>
+                <li className="list justify-content-start">
+                    <a href="/">Create</a>
+                </li>
+                
             </nav>
         </div>
     );
